@@ -40,9 +40,9 @@ function Hero({}: Props) {
             <div className='shrink-0 md:w-1/2 lg:w-7/12 xl:w-auto'>
                 <motion.h1 initial='hidden' animate='visible' variants={container} className='text-4xl lg:text-5xl mb-8 font-semibold'>
                     {/* <span className='text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-300 inline-block'>The best way to</span> */}
-                    <HeroAnimation text='The best way to' className='text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-300 inline-block'/>
-                    <HeroAnimation text='do clustering' className='text-transparent bg-clip-text bg-gradient-to-br from-violet-400 to-violet-600 inline-block'/>
-                    <HeroAnimation text='in TypeScript' className='text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-300 inline-block'/>
+                    <HeroAnimation text='The best way to' className='text-white'/>
+                    <HeroAnimation text='do clustering' className='text-white'/>
+                    <HeroAnimation text='in TypeScript' className='text-white'/>
                     {/* <span className='text-transparent bg-clip-text bg-gradient-to-br from-violet-400 to-violet-600 inline-block'>do clustering</span>
                     <span className='text-transparent bg-clip-text bg-gradient-to-br from-white to-zinc-300 inline-block'>in TypeScript</span> */}
                 </motion.h1>
